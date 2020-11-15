@@ -1,15 +1,14 @@
 /**
  * @name Theme
- * @description Делает ваш discord пурпурным, а у вас глаза будут меньше уставать.
+ * @description Делает ваш discord пурпурным, а у вас глаза будут меньше уставать, Это переделанная тема BasicBackground от DevilBro.
  * @author DeMar
- * @version 4.0.1 Bug Fixes
+ * @version 4.0.2 Bug Fixes
  * @authorId 555378020299440128
  * @invite XtTbvT4
  * @donate https://www.donationalerts.com/r/DeMarPro
  * @patreon www.patreon.com/DeMarPro
- * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
- * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
- * @updateUrl https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @website https://github.com/DeMarPro/Theme
+ * @source https://github.com/DeMarPro/Theme/blob/main/DeMarTheme.theme.css
  */
 
 /* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
@@ -24,7 +23,7 @@
 	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
 	--accentcolor:					190,78,180;					/* default: 190,78,180			(RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)							*/
 	
-	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;		/* font used in most places														*/
+	--font:							Roboto, Roboto, Roboto, Roboto, Roboto;		/* font used in most places														*/
 	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	
 	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/background.jpg);	/* general background image						*/
@@ -39,5 +38,5 @@
 	--backdropsize:					var(--backgroundsize);		/* default: cover				(sizefit of backdrop background - values: [cover/contain/auto])					*/
 	--backdropblur:					var(--backgroundblur);		/* default: unset				(only works when --backdrop is set to an image)									*/
 	
-	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
+	--version4_0_1:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
 }
